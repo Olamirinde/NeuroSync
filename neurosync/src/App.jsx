@@ -1,13 +1,21 @@
+import Features from "./components/Features"
+import Footer from "./components/Footer"
+import Hero from "./components/Hero"
+import Navbar from "./components/Navbar"
+import Pricing from "./components/Pricing"
+import Testimonials from "./components/Testimonials"
+import Workflow from "./components/Workflow"
 
-
-function App() {
-  
+const App = () => {
   return (
     <>
-      <div>
-        <p className='text-3xl text-green-500'>Hello world</p>
-      </div>
-      
+    <Navbar />
+    <Hero />
+    <Features />
+    <Workflow />
+    <Pricing />
+    <Testimonials />
+    <Footer />
     </>
   )
 }
